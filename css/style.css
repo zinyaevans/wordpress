@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* html {
+    font-family: 'Roboto', sans-serif;
+} */
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.title {
+    /* font-family: 'Roboto Black'; */
+
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.simple .title_big {
+
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.promo .promo_text {
+    margin-top: 23px;
+    padding: 0 13px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo_text span {
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.promo .promo_btn, .gift .gift_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0px 0 0 0 rgba(0, 0, 0, 0.18);
+    border: solid 4px rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9, #3ab6da);
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+
+    font-size: 18px; /* Почему при размере текста 21px он занимает все пространство кнопки */
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    min-height: 604px;
+    padding: 85px 0 75px 0;
+    background-color: #efefef;
+}
+
+.waiting .waiting_header, .finish .finish_header {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.finish .finish_header {
+    color: white;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    text-align: center;
+    width: 339px;
+}
+
+.waiting .waiting_wrapper .waiting_descr {
+    text-align: center;
+    margin-top: 33px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.optimization {
+    min-height: 550px; /* min-height - надо так, но будет отступ */
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px; 
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #4a4a4a;  
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #efefef;
+}
+
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+    padding-top: 86px;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_descr {
+    margin-top: 42px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
+
+.gift .gift_btn {
+    margin-top: 52px;
+}
+
+.first_webinar {
+    min-height: 515px;
+    padding-top: 89px;
+}
+
+.first_webinar .first_webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first_webinar .first_webinar_text {
+    margin-top: 37px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 12px;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.first_webinar .first_webinar_date {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 12px;
+    color: #299cbd;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_webinar .first_webinar_descr {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.footer {
+    height: 166px;
+    padding-top: 61px;
+    background-color: #1a1a1a;
+}
+
+.footer .footer_table {
+    text-align: center;
+}
+
+ul#footer_table {
+    list-style: none;
+}
+
+ul#footer_table li {
+    display: inline;
+}
+
+#footer_table li {
+	border-right: 1px solid #888;
+    padding: 0 10px;
+}
+
+#footer_table li:last-child {
+	border-right: none
+}
+
+a.support , a.politics {
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+    line-height: 21px;
+}
+
+h2.number {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #888;
+}
